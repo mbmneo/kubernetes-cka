@@ -7,4 +7,4 @@ spec:
  containers:
  - name: busybox
    image: busybox
-   command: ['sh', '-c', 'sleep 10; this is a bda command that will fail']
+   command: ['sh', '-c', 'sleep 10; this is a bad command that will fail']
